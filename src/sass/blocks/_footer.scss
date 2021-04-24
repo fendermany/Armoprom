@@ -1,0 +1,54 @@
+.footer{
+    background-color: #F3F3F3;
+    position: relative;
+    padding: 0 0 90px 0;
+    &__wrapper{
+        
+        display: grid;
+        grid-template: 1fr / 1.5fr 3fr;
+        column-gap: 75px;
+    }
+    &__title{
+        position: absolute;
+        top: -75px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    &__info{
+        span{
+            padding-left: 60px;
+            display: block;
+            font-weight: 400;
+            font-size: 27px;
+            line-height: 33px;
+            color: #000000;
+            position: relative;
+            margin-bottom: 23px;
+            &:before{
+                content: '';
+                display: block;
+                position: absolute;
+                width: 68px;
+                height: 68px;
+                left: -30px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+        &-email:before{
+            background: url('../../icons/contacts/email.png') no-repeat center center/cover;
+        }
+        &-address:before{
+            background: url('../../icons/contacts/address.png') no-repeat center center/cover;
+        }
+        &-map:before{
+            background: url('../../icons/contacts/map.png') no-repeat center center/cover;
+        }
+        &-telefon:before{
+            background: url('../../icons/contacts/telefon.png') no-repeat center center/cover;
+        }
+        &-sklad:before{
+            background: url('../../icons/contacts/sklad.png') no-repeat center center/cover;
+        }
+    }
+}

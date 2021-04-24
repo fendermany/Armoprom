@@ -1,0 +1,32 @@
+.header{
+    background: #F3F3F3;
+    &__wrapper{
+        min-height: 55px;
+    }
+    &__menu{
+        min-height: 55px;
+        &-list{
+            min-height: 55px;
+            list-style: none;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: center;
+            align-content: center;
+            margin: 0;
+            
+        }
+        &-link{
+            font-weight: 600;
+            font-size: 19px;
+            line-height: 23px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #515151;
+            &:hover, &:active{
+                text-decoration: none;
+                color: #515151;
+            }
+        }
+    }
+}

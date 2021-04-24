@@ -1,0 +1,26 @@
+@import '../css/bootstrap.min.css';
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@import 'base/variables';
+@import 'base/mixins';
+
+@import 'blocks/icons';
+@import 'blocks/title';
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/mission';
+@import 'blocks/slider';
+@import 'blocks/do';
+@import 'blocks/tech';
+@import 'blocks/transport';
+@import 'blocks/footer';
+
+
+@import 'base/media';
+

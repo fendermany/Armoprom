@@ -1,0 +1,40 @@
+.mission{
+    position: relative;
+    background-color: #F3F3F3;
+    padding: 0 0 58px 0;
+    &__wrapper{
+        margin: -50px 0 0 0;
+        display: grid;
+        grid-template: minmax(min-content, max-content) minmax(min-content, max-content) minmax(min-content, max-content) minmax(min-content, max-content) minmax(min-content, max-content) minmax(min-content, max-content) / 1fr;
+        grid-auto-rows: minmax(min-content, max-content);
+        
+    }
+    &__img{
+        width: 100%;
+        left: 0;
+    }
+    &__title{
+        position: absolute;
+        top: -65px;
+        left: 50%;
+        transform: translateX(-50%);
+        &-img{
+            margin: 18px auto 18px auto;
+        }
+    }
+    &__text{
+        margin-bottom: 105px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        color: #000000;
+    }
+    &__text2{
+        font-size: 29px;
+        line-height: 35px;
+        text-align: center;
+        font-weight: 400;
+        color: #000000;
+    }
+}
